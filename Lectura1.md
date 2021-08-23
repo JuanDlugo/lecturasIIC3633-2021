@@ -5,8 +5,11 @@ Quiero partir mi comentario con un breve resumen y recalcando que la lectura hab
 El artículo parte mencionando y explicando lo que es el Collaborative Filtering (CF), el porque se aplica hoy en día y como funciona. Se habla sobre como los seres humanos, incluso antes del internet, nos recomendábamos películas, restaurantes, libros, lugares, etc. Y que si tuvieramos el poder de computo podríamos generar programas que sepan exactamente que recomendarnos. Pero como no tenemos ese poder de cómputo y el dinero para llevarlo acabo, lo mas simple, efectivo y razonable es meter a las personas a la ecuación y que el programa encuentre recomendaciones para nosotros a partir de los demás usuarios en la página.
 
 También se habla en el paper las principales 3 funciones de los CF, que consisten en:
+
 a) recomendar items 
+
 b) predecir puntaje de items
+
 c) Recomendaciones con restricciones
 
 Y que existen dos principales visiones para enfrentar este problema. Las dos visiones corresponden a: 
@@ -17,8 +20,11 @@ Y que existen dos principales visiones para enfrentar este problema. Las dos vis
 Pero indendiente de la visión escogida, los modelos actuales son útiles para los siguientes casos y necesita que lo siguiente ocurra porque de lo contrario no pueden realizar recomendaciones eficientes.
 
 -> muchos items (sino no es necesario usar CF)
+
 -> muchos ratings por item
+
 -> mas ratings que items 
+
 -> que los usuarios den varias recomendaciones
 
 También se comenta en el paper lo discutido en clases sobre como estos métodos de CF poseen un Cold start que se refiere a problemas para recomendar cuando tenemos un nuevo usuario, un nuevo item y una nueva comunidad. Se dan distintas soluciones para tratar con cada uno pero cabe destacar que una nueva comunidad es lógicamente las más dificil de hacer andar.
